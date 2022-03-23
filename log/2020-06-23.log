@@ -1,0 +1,21 @@
+2020-06-23 17:33:54,025 - getToken - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxMjAzNCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.ODf6NP43FjC66jfspdeEJ3AOyN1X836UnxkF6MxWSDCZ71pN2UBUcgC1kyBCoGrA1fic01j8UYtgYPCP0EKnSjs1jhIm1B1SjfNYFUo8G8_zBn3e__O78-40nYcveSIL-kYIuUMxWn-5hYGn8zrAW7DUVxYloITiW6F1ZhthBrA
+2020-06-23 18:27:31,682 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxNTI1MSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.atY-4awfNYuLFu80RLPRAeDADhRT1vyJt3kPjK2BEP0a4ciLTkT9EvEyxjIPPmmyJ-8FSaVi_6Rn7grWInRuuag-5OgK5_N5f_pcUA_M6icC7tBgHXg5CmZ1Flr8A3QweIY6OAuDnQyLXyxGt1XqkXBVxa5yEY_JEjENMMDG_uk
+2020-06-23 18:27:57,791 - getToken - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxNTI3Nywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.fH5RlksQf7pflMR1WeZ1e3SljrhLPeWQOqzu9CTR79oXe54td4hfbhITCrYeVWfr-AEBFcwkHoIoREFfi9ryaQFvz62uWOeSXgTaDrddvQssukuLDBYAk3taLffXrRm2nEtjVALWcnhrQyLWfPisxa7eAxptSquRVTlY_hU5H-Q
+2020-06-23 18:31:17,123 - getToken - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxNTQ3Nywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.AB-LcimXAv1MRqHF82-MG4s_Irj3q9ZuKE8-S1heFN0OlaazwF49PsjbvLPCRxcZI0s_btHG3t5a-NBVSo4rCwVJCcg1-iq_chclekLrLHKhooI7N_KWeJ9xLu9yofC8zHSTp9WZ9hiKMEW2TkAcfrL_8uUUuGPqhSRMgxZCS_A
+2020-06-23 18:31:28,131 - getToken - ERROR - 获取 [access_token] 失败：
+{
+    "code":2011104,
+    "error":"username_pwd_unmatched",
+    "error_description":"GetTGR failed: getUserIDInPwdFlow failed: verifyUserPassword failed: username_pwd_unmatched",
+    "msg":"\u7528\u6237\u540d\u548c\u5bc6\u7801\u4e0d\u5339\u914d"
+}
+2020-06-23 18:34:18,461 - getToken - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxNTY1OCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.PVGUWIhk_N2gUo4hfZW9d7UggqserB-oGF0vrmWivLePYmnzsLgOFtUOtPnYAvL7-cAV9AxKX0vU7LLSDavDFyh5venH2Seak4drtaqCJpMzwj3XN5OmaQebFzuuf6dVBcRG1M8gmIXpKVFhWgB98pf1MlQ4IjSMILU3bW2AviQ
+2020-06-23 18:34:32,766 - getToken - ERROR - 获取 [access_token] 失败：
+{
+    "code":2011104,
+    "error":"username_pwd_unmatched",
+    "error_description":"GetTGR failed: getUserIDInPwdFlow failed: verifyUserPassword failed: username_pwd_unmatched",
+    "msg":"\u7528\u6237\u540d\u548c\u5bc6\u7801\u4e0d\u5339\u914d"
+}
+2020-06-23 18:52:17,588 - getToken - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxNjczNywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.HXHmudxp_cQLQylYLWI4IZZ-nqNgpSti2QD_8gclShYBCzXyNRkt2sCnzFkv4lOm-UutE5LX5Tr9a7Cy9cYAiscc1DqiupuFtHWl6dpuFy8luD3U2m_azsRFR44uuutEX9FnJf_t5pTeSbEpLdD4psPRduKexnXh2JvhWU0fZro
+2020-06-23 18:54:53,794 - getToken - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MjkxNjg5Mywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.paLmfRImodBl0I-q7OHSHIeiQAInAdro4BcytKVoJiI0nVAtD-CdE1rQvqVIwbWyoA0cQiGdZpG39g45AMeMgK_3AzGWEqtap_xFrvgi2rncUuNS94uYUiK7J3RuEUEseCM3SxxgEGSw1mKoUGmxDc2F8osK8yw1I2RO2VDeuOI

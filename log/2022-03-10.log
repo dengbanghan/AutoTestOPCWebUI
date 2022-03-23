@@ -1,0 +1,34 @@
+2022-03-10 18:00:25,449 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:02:44,287 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:03:13,908 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:06:00,541 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:07:31,989 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:09:22,706 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:10:19,385 - loadDBConfig - INFO - sql load config:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com-3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:12:09,139 - loadDBConfig - INFO - sql load config:host:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com/nport:3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:12:27,697 - loadDBConfig - INFO - sql load config:host:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com
+port:3306-eddid_dev-eddid@123-message_push_qa
+2022-03-10 18:15:17,888 - loadDBConfig - INFO - sql load config:
+host:rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com
+port:3306
+user:eddid_dev
+password:eddid@123
+database:message_push_qa
+2022-03-10 18:17:15,373 - loadDBConfig - INFO - sql load config:
+host:'rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com'
+port:3306
+user:eddid_dev
+password:eddid@123
+database:message_push_qa
+2022-03-10 18:19:40,729 - loadDBConfig - INFO - sql load config:
+host:'rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com'
+port:3306
+user:'eddid_dev'
+password:'eddid@123'
+database:message_push_qa
+2022-03-10 18:19:58,515 - loadDBConfig - INFO - sql load config:
+host:'rm-wz94r73is5gxn6it59o.mysql.rds.aliyuncs.com'
+port:3306
+user:'eddid_dev'
+password:'eddid@123'
+database:'message_push_qa'

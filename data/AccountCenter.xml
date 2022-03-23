@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataDriven>
+    <firstList tabs1="存款" tabs2="取款" tabs3="内部转账" tabs4="换汇"></firstList>
+    <secondList tabs1="子账户申请" tabs2="业务申请"></secondList>
+    <thirdList tabs1="账户信息" tabs2="资金记录" tabs3="账户设置" tabs4="联系客服"></thirdList>
+</DataDriven>

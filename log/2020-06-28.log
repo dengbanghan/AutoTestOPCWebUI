@@ -1,0 +1,125 @@
+2020-06-28 09:34:04,335 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMxNTI0NSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.JXqp71jg2vkEK4o0YYrtxBwQhLBU-HFL3bb5HkCM0tXTxmC4WoQxMrYYZ3TlcTE8cNPRmT_fE_l1fymQhfCQQ3M3rzLLt1Wz1WyAuI9fyGqw_Ds_4CSift7IHIKvcZiaYciLDfJDJPfC8CnQbHp_vBXFz5SmA3Ym2eu26vzcVrg
+2020-06-28 09:43:07,456 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMxNTc4OCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.p9VjZfT17jKBt3Kdf1Q3IAHeu3xtK-n3JjOatNLzphWVdbmyUCdHGuZVZHX0CY06wlhlfGkYJL_lcuxq1tiu2DF78hdMPsImrHJ2J81jjC4cB2O1Xh7a_JuCWoWCFurW7g8xjFuvjPnc3uzNjfuzrYuIOQ3RuZcqjIQGPoFWEzQ
+2020-06-28 09:43:30,164 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMxNTgxMCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.IPIyqNuMvC44i-tg2qO296xv_t0qF60UegGH1Vvo-17HwUAZDPlluSX2-9a-zwBJo3mGzoger83cqhBnyxQA2j9k7VesJ46lWjiRqTzqNlJbwzoFXQ6JnbETF0SjpYxFbBi-5n0FJT49ZVQxw8vD5aqqPyppODDq_UmvvkP2Vh8
+2020-06-28 09:43:44,590 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMxNTgyNSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.lfcNaADC6Sj1UHEJ19qjipiDCJrpqNmzBa1ziqqhBSRjXpeicEIwXJEzwibpaFClXXu7OIl8OdVbi1kIKErETjdttJ5D-_KmyTUCPn472OEJZIgpsKsFVu7-Ev1Y2e8Qx3npu1xWkfTBWnNw8NTZyVXs0v0xziDGiNib_2dZg-k
+2020-06-28 09:54:47,076 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMxNjQ4Nywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.jUGXsPZK97FE27fSUI5-5MmxC5ZkFttgr2NjV8fnR02NUbLZ1Iiu_ICxIfUVzSk9rC0JYymsViMdEhVw0jyqG7FUePS2ylK46ywZqtvyqnlsThSGSvxayzuigewMTctoQX5-dVqy45QoAzEG6sfaS5M4WLw0uXzK34dSQgiL1HU
+2020-06-28 09:54:58,512 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMxNjQ5OSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.eFRfW5LzwfGMLRtGLQzlii8r8ZDaHFy2w93L-06rsMUA1fm5IfVOddgjS0XCcu2akeUR4KGDfmYl06dn0UJdOaf8boH-ke6ttoIefdNmPlPPlijdy6xsPkQ9rkvK7c9XirdExe-hqrsj7QjbJyt59KpTq6W-HeAM-a9RghiNlrs
+2020-06-28 13:58:50,677 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTEzMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.RinXM639aoXji1mdLRAIgV0BhluByZ584lJRXvtQiqPQrPzHaL23Z90o9nYq-U3nlyBFYWinQsHykP53ZEk7SzBWwiqmDUvBx8mG0XH6xlhftSibOgyZttC1YokX8M_QHzxkSRINOCdo6csZcb5B45tE6ZnABkPd3O3iErCA9hA
+2020-06-28 14:00:11,171 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTIxMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.Ho9jeAdniM4Bfxm2cSZKweg7Vm70SmP9Vy9wQS32jypESwuvjfNj2gB4GeMXCJH3Sc0ZZi-sHIULx-2tPrKzlHEg_o5vm1bcLJ0f9h62iZxerXjwy8ePST6--eex_VGNuvF4qVBozxWcINv-H2xZxrI5MoMmmn1hwZonO-EPBIQ
+2020-06-28 14:01:45,909 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTMwNiwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.QwInMenrAwhOykWzw-B9U1MYIh1olNNnlmd4wXPqXK-lXjDX7P07Xzbhky4C061NiJ4cel7K0Mfz0j76s-xoX6FcAHZ39MIkuaS_0w7q7vblefw-_wzpohApWvd2IA6WipWo-tibXBzpyGmxcgWeRguOXL5-Ey2HsSKFD73d4kE
+2020-06-28 14:02:13,313 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTMzMywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.jejpqNln7f9IiwkvJ-QW3MYNhOzVTf9spBtQ1p9unVNo702d2ne7yElXsUR-KcSFU3Lusto9YydazXZskuY_yighjdkv7amIqFrFeDl8QZ76yy_ZksrqQ68-FGGHE301qTTYysVZcRNfTtDnrHBkFEjHuvguX0a60RXmzCFPutc
+2020-06-28 14:04:03,474 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTQ0NCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.VE_fpiyCedHlRm8vip4C_RGu79uj4O2KwXzvGBvnnImyPUKpNYmldcCwcvV7jzbFqbleoz_6jJt-8Xh5uOcvnbwTq8gW2FC6vZyBsHryKPuV3fxUBd2rNLtHTLnJTCbF-FQfjXaCRJCNI2-4pdhfQqUZGGNGz0jJgBL0v9yjgwk
+2020-06-28 14:06:24,300 - allTest - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTU4NCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.Dh6VprEi9OysfrQxRdyhAvXA_3h_YPyJO4TlR-nV1RLfh_oUb6QnUg8QIq2WoWV9vdzqAK2I8CQnu4CrX8murbkz9aNNX1dQcGWb5U8T6iU5rFbfrs-_wuGTt6CuimNYWrpeaRNKrVCAKD4tW2yz-ba3s0tpbutdXSNCg2o7dpw
+2020-06-28 14:07:15,817 - allTest - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMTYzNiwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.NSiXzrJFcBLdYmBs0-BLlyy9DCc7J-5I4AK_Pt0LRvVGxCYSUGNwhCcln2NbS7mxW4gj2aPnWdPECIrmubmoRu_0G_jUD-F7HOFmndp7W5Ul0wsGZ0xgQ_88i0ajs5uTjWLAjG3SstXfx9PPD11QTFPkKZqhE6QUIbe_5B0n1kc
+2020-06-28 14:29:48,202 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMjk4OCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.C1-INnlHMgHyDx8BDo6RMGzumy0kzBz91Wbi9z-RX2k2iER2Y249twhfJ5T0nSnXmepoGdYdCOP7nM-IVJA68Q_txpwxdFVIMUfqszTPkG4IPqhP914671BKJD7tyAWztu2WJRdjy8KLmV4nmvIn3tyfGrTM9XI4lnDKTGL2wjo
+2020-06-28 14:33:20,574 - _jb_unittest_runner - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMzIwMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.JOrDH0ygsCuTpsYKDTZqiaSqwyw9nj3x1_O_FVDLcNXn0IXYQwqtbZnsc54cDTAES2rTPpuB8Yg4KyVhr9JK6APF4Vf0bGu6lNaZOyxN_OODlPGqdRdw3YK_SL1l75k_u7ykDDRxc_N1_qxm7hLgKb8aa2iANqSZNdxgSfY0Nlw
+2020-06-28 14:33:25,923 - _jb_unittest_runner - ERROR - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 14:33:41,036 - allTest - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzMzIyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.gC5jkdOH-Qjg02VAK24lmNoiCWQ7GH57tR7i-FtW9tVqKWRhOU0lI6gIKn3ntSsD2nkoVfo3WEfKywLeWRXhREgZY3yYr5lMml2fYUMw5-BsekZACWPyTTo4NOvC-9Bu527M4m9iHTJObM9dPsmAcKtYE2z0-aFOp_bPOG9zx24
+2020-06-28 14:33:46,706 - allTest - ERROR - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 14:48:59,248 - getToken.py - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDEzOSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.e1Rbnj6ElYa7gMnq-ODyAyZsFPnpZAJxnqTz--EMI8VsWUBFwJllHxNVTJOgHPjrd3zv5T7u3qEVCXPdbutgNZSWwOlGkVzAed7ZA6YUjh6Jtqm8qGY18c7B3v-qQoXyzCmADz-gZk6L9lVai9xGhzINBuMZmhKT9DYhq7kaNGI
+2020-06-28 14:50:05,315 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDIwNiwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.Gdt8F6DoYEdHyTT9Q2nYXHk2OOmLpgpFSJ8n65CqTOdkNb3Ga1xeOih4_pBXczbdb2ZegxY0g-viydb7MnbGLJS6DgUm7v0894rHKtOw0NzeBag3RjY0toWk2EYzR2bSA5ESAywMr1hGL-zVS7hGh4cHbuFDFumJzaoJP79kbE0
+2020-06-28 14:50:20,653 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDIyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.X8kGlOO6QB09lb76wJ5-6TVW3ym8SU8834ys0try2goGHEAm8oMEUXbb6M_SjJvdX39rDzexSR0fuRPeg2jD6IquYRmqEaeCFsTKHvrWnJTBmTEM0tUXUsHX02Gdvd7IA26N6rOK7tlIoW84NlypJwvon3NwqcQn0TOJaOeTEeQ
+2020-06-28 14:50:20,679 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDIyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.X8kGlOO6QB09lb76wJ5-6TVW3ym8SU8834ys0try2goGHEAm8oMEUXbb6M_SjJvdX39rDzexSR0fuRPeg2jD6IquYRmqEaeCFsTKHvrWnJTBmTEM0tUXUsHX02Gdvd7IA26N6rOK7tlIoW84NlypJwvon3NwqcQn0TOJaOeTEeQ
+2020-06-28 14:50:58,025 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDI1OCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.AQADNwX435UHS2QFcolH6yk_KEQSwdWXYkVOzkjd7qYJ37TYFuTrHXjbCG3iok_F_dh7ffdjx1W69mhu74WaZe9Yyccw4YT5v84vfbuNwbZA249NRdiiEDBfpaUR1hPslpa3_-VHDdqr6lRPiUJpDxy82z8lKFnemVoqyD4Z-d4
+2020-06-28 14:50:58,052 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDI1OCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.AQADNwX435UHS2QFcolH6yk_KEQSwdWXYkVOzkjd7qYJ37TYFuTrHXjbCG3iok_F_dh7ffdjx1W69mhu74WaZe9Yyccw4YT5v84vfbuNwbZA249NRdiiEDBfpaUR1hPslpa3_-VHDdqr6lRPiUJpDxy82z8lKFnemVoqyD4Z-d4
+2020-06-28 14:51:03,768 - test_Deposit_002 - ERROR - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 14:54:08,368 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDQ0OSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.kNy2Ltyuu56YE2WkJZbPPuvmva9LVinKyNG5VvuZ4LxVbUuzd3dpyLiDjfT9mNDr8OUvamRAHYZPJ_fstg8masWnetI-uhXMbmeQZjFfiCJPb1g4EVcYc0E49KbS2ewNsfwLayldOTuKQxJ0t9c9RVEqi1JQNg6DIdseeqMEIMc
+2020-06-28 14:54:08,403 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDQ0OSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.kNy2Ltyuu56YE2WkJZbPPuvmva9LVinKyNG5VvuZ4LxVbUuzd3dpyLiDjfT9mNDr8OUvamRAHYZPJ_fstg8masWnetI-uhXMbmeQZjFfiCJPb1g4EVcYc0E49KbS2ewNsfwLayldOTuKQxJ0t9c9RVEqi1JQNg6DIdseeqMEIMc
+2020-06-28 14:54:13,816 - test_Deposit_002 - ERROR - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 14:56:04,067 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDU2NCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.KQrWUnV8UK0VOMLiRQZ50dCrRttm4NnrzdmMeqCOm8vhdB5pqSLpGnFrlAPgOwEjRn1grY3EaJhZ36H_lntiYj9omhLCqWq86TY8igNOBgdsmEexG-EQo6DJqozb5acIob_qqdcK2CyYDjxTj_NNa71lvT1LN_AU-34MKqQsUwo
+2020-06-28 14:56:04,093 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDU2NCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.KQrWUnV8UK0VOMLiRQZ50dCrRttm4NnrzdmMeqCOm8vhdB5pqSLpGnFrlAPgOwEjRn1grY3EaJhZ36H_lntiYj9omhLCqWq86TY8igNOBgdsmEexG-EQo6DJqozb5acIob_qqdcK2CyYDjxTj_NNa71lvT1LN_AU-34MKqQsUwo
+2020-06-28 14:57:00,915 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDYyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.m5Ni8yBYCXcCWjtT3THoPtZZ1C4rwy52if3AUQ3AZLOfOIG76Er43NIIAxG67FreUT7_JWqD-e7688gXstahzdT-PURDMGz0ewWr1XdmZmAWFJAHMu0sz0thWQzQJUDHR2rUODIh_w4SLr2WFwBtEA89dFb1ulKXnWKQUiHc278
+2020-06-28 14:57:00,945 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDYyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.m5Ni8yBYCXcCWjtT3THoPtZZ1C4rwy52if3AUQ3AZLOfOIG76Er43NIIAxG67FreUT7_JWqD-e7688gXstahzdT-PURDMGz0ewWr1XdmZmAWFJAHMu0sz0thWQzQJUDHR2rUODIh_w4SLr2WFwBtEA89dFb1ulKXnWKQUiHc278
+2020-06-28 14:57:36,872 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDY1Nywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.ZRrtGCi6igF0lU0hfHvSOVI-oyeRyc0NwAXU-8PJwoxYGU44QJ8hK5yPGwS6pnndW0H7AkL3m78ahN3w44eoihDW6VQ1ffpYVa9fTwob4-uYsKBqhwd1KYUYhcMV1rj8vhpbh4mZqCN4X5xRM_ZOpnES1NDjqYKOAJZ4443ftqg
+2020-06-28 14:57:36,907 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDY1Nywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.ZRrtGCi6igF0lU0hfHvSOVI-oyeRyc0NwAXU-8PJwoxYGU44QJ8hK5yPGwS6pnndW0H7AkL3m78ahN3w44eoihDW6VQ1ffpYVa9fTwob4-uYsKBqhwd1KYUYhcMV1rj8vhpbh4mZqCN4X5xRM_ZOpnES1NDjqYKOAJZ4443ftqg
+2020-06-28 14:59:12,264 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDc1Miwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.SJ7mE4pEe7zihodYwjTMIMLuwB9CIbgJbBt3WPz2qcCK4-grEoBTRcCoO4uMG-Nd49BSxNKNCRJ4aAHaypoRqwOfe-pMib6IbEYxy7SL3ErBaXBSWv8dESDDZFE5Zakx06ikMk6jjqf3RVyC8nCjiNbAFsNPifvMqDeW5XGpGtw
+2020-06-28 14:59:12,294 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDc1Miwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.SJ7mE4pEe7zihodYwjTMIMLuwB9CIbgJbBt3WPz2qcCK4-grEoBTRcCoO4uMG-Nd49BSxNKNCRJ4aAHaypoRqwOfe-pMib6IbEYxy7SL3ErBaXBSWv8dESDDZFE5Zakx06ikMk6jjqf3RVyC8nCjiNbAFsNPifvMqDeW5XGpGtw
+2020-06-28 14:59:17,689 - test_Deposit_002 - ERROR - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 14:59:42,432 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDc4Mywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.qo0EiJLFaoOlFHirsvsX8Zb2IqQfcX8UJTd6Ah29S5CrA0D7y6c93c1yByZ9ILYp8lqJ2umxw87svVCNq6eBE3vh_cmO3gT2f6SzTAMRmIbaa3VmrFyNkASJ7JfCjhwUzm2W3FcoDUUbkwt-eTDyT1i1wSUwxJutZOU7-6Day-8
+2020-06-28 14:59:42,467 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDc4Mywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.qo0EiJLFaoOlFHirsvsX8Zb2IqQfcX8UJTd6Ah29S5CrA0D7y6c93c1yByZ9ILYp8lqJ2umxw87svVCNq6eBE3vh_cmO3gT2f6SzTAMRmIbaa3VmrFyNkASJ7JfCjhwUzm2W3FcoDUUbkwt-eTDyT1i1wSUwxJutZOU7-6Day-8
+2020-06-28 14:59:47,786 - test_Deposit_002 - INFO - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 15:00:23,932 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDgyNCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.iHD-Po42GMzt5TY1xCO9mzo9xQECeFOpnbPOxN5-6TeHqG5o7n3MUjlbdfyeKW96lL0eK8VJGluJ0LuD9YA6xAtQ8_9JMzvZVCFZoRrKD0o14xPeAwuw7O8zbKMp2eHS_ArOo1LwSfmPwLvN05TfkfRKq2bgIb4jOlIfArzsWCM
+2020-06-28 15:00:23,958 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDgyNCwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.iHD-Po42GMzt5TY1xCO9mzo9xQECeFOpnbPOxN5-6TeHqG5o7n3MUjlbdfyeKW96lL0eK8VJGluJ0LuD9YA6xAtQ8_9JMzvZVCFZoRrKD0o14xPeAwuw7O8zbKMp2eHS_ArOo1LwSfmPwLvN05TfkfRKq2bgIb4jOlIfArzsWCM
+2020-06-28 15:00:45,662 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDg0Niwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.Kl_0-e7h1V6u3b_fQhT5AtF0wIlRdOyuafIppqQO44nFEj9ujnTuv7TEZiQgahKoS4P-nE2L1m8lom3umqn4Xf-p0hHV9dZgLUC3njFc12h5mj-i0eEp-2Xo1XdJo-s5vb1e1X0MOcGc5RfyKPiru6k3iYLaG-XYmNB4lF2M9-c
+2020-06-28 15:00:45,686 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDg0Niwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.Kl_0-e7h1V6u3b_fQhT5AtF0wIlRdOyuafIppqQO44nFEj9ujnTuv7TEZiQgahKoS4P-nE2L1m8lom3umqn4Xf-p0hHV9dZgLUC3njFc12h5mj-i0eEp-2Xo1XdJo-s5vb1e1X0MOcGc5RfyKPiru6k3iYLaG-XYmNB4lF2M9-c
+2020-06-28 15:00:58,841 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDg1OSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.drGvZw_MlsPbixYqRZSlYR-mHBtkHL-d6nVj8cmz9VqZ3FoVGedbjMepWxY-BV5H8X1IHG0HKpmWhEii0YzDyoMTlQAbr3_2giy80o34EhF3yB9vuuBAhIQj-ODpguKgVAV3Q-4ICAmS_-Sm2L7dWyzxbXYUfMNUViJXYIHLvs4
+2020-06-28 15:00:58,867 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDg1OSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.drGvZw_MlsPbixYqRZSlYR-mHBtkHL-d6nVj8cmz9VqZ3FoVGedbjMepWxY-BV5H8X1IHG0HKpmWhEii0YzDyoMTlQAbr3_2giy80o34EhF3yB9vuuBAhIQj-ODpguKgVAV3Q-4ICAmS_-Sm2L7dWyzxbXYUfMNUViJXYIHLvs4
+2020-06-28 15:01:37,784 - get_token - ERROR - 获取 [access_token] 失败：
+{
+    "code":2011104,
+    "error":"username_pwd_unmatched",
+    "error_description":"GetTGR failed: getUserIDInPwdFlow failed: verifyUserPassword failed: username_pwd_unmatched",
+    "msg":"\u7528\u6237\u540d\u548c\u5bc6\u7801\u4e0d\u5339\u914d"
+}
+2020-06-28 15:02:00,934 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDkyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.EOs1tWi5oNFyoTC3ovvqGYwo5nTheJ3LUl1QZn9aiyJsWGbsIlxUnMIy0qjQjp2ZsBFwd0_yt7XpayZhLrIDeFQey3ikjF4Tf5Ydi_fd2kjcBI1lkfAHdtQiA9aPDxlgYn3bL-rto15suKnJmm0MqjgdJ5bWQW2XUa8HvmzZNu8
+2020-06-28 15:02:00,961 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNDkyMSwic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.EOs1tWi5oNFyoTC3ovvqGYwo5nTheJ3LUl1QZn9aiyJsWGbsIlxUnMIy0qjQjp2ZsBFwd0_yt7XpayZhLrIDeFQey3ikjF4Tf5Ydi_fd2kjcBI1lkfAHdtQiA9aPDxlgYn3bL-rto15suKnJmm0MqjgdJ5bWQW2XUa8HvmzZNu8
+2020-06-28 15:02:06,521 - test_Deposit_002 - ERROR - 用例执行失败，实际返回结果与预期结果不符
+2020-06-28 15:12:53,069 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNTU3Mywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.IQKfkIAt45bjN2Yl5GPw_O2tiwkMfK0x7EqQkC1xvnP5XSDI1guagnPo0NBUSJ7-0Jx337f-84Fvxq8FoIQbBmHJTaENoFjSJbq9RQ6GxBLk4bNZ6l57HuDOfVN0Lxcn3XPmWVRNwgZtkNWzmNOibdyTMcwqTQPjM9R_5WDh32Q
+2020-06-28 15:12:53,114 - get_token - INFO - 获取 [access_token] 成功：eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ0ZXN0YXBwMiIsImV4cCI6MTU5MzMzNTU3Mywic3ViIjoiMGJhYWEyOGUtZGQxOC00NDg2LTg2ZDMtNTQ1MTkzMDdmMGFhIiwic2NvcGUiOiJiYXNpYyJ9.IQKfkIAt45bjN2Yl5GPw_O2tiwkMfK0x7EqQkC1xvnP5XSDI1guagnPo0NBUSJ7-0Jx337f-84Fvxq8FoIQbBmHJTaENoFjSJbq9RQ6GxBLk4bNZ6l57HuDOfVN0Lxcn3XPmWVRNwgZtkNWzmNOibdyTMcwqTQPjM9R_5WDh32Q
+2020-06-28 17:17:54,300 - test_LoginPage_001 - ERROR - 用例执行失败，预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:24:34,423 - test_LoginPage_001 - INFO - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:27:37,817 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:27:37,850 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:30:56,416 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:30:56,448 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:31:52,934 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:31:52,969 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:31:53,004 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:35:22,113 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:35:22,148 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:35:22,180 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:37:09,885 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:37:09,918 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:37:09,949 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:46:34,967 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:46:35,000 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:46:35,033 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:52:37,473 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:52:37,513 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:52:37,546 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 17:55:13,648 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:55:13,684 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:55:13,717 - test_LoginPage_001 - DEBUG - 预期结果结果为：+86,实际返回结果为：+86
+2020-06-28 17:55:13,794 - test_LoginPage_001 - DEBUG - 预期结果结果为：请输入手机号码,实际返回结果为：请输入手机号码
+2020-06-28 17:55:13,858 - test_LoginPage_001 - DEBUG - 预期结果结果为：请输入密码,实际返回结果为：请输入密码
+2020-06-28 17:55:13,877 - test_LoginPage_001 - DEBUG - 预期结果结果为：请输入验证码,实际返回结果为：请输入验证码
+2020-06-28 17:55:13,904 - test_LoginPage_001 - DEBUG - 预期结果结果为：登录,实际返回结果为：登录
+2020-06-28 17:56:30,594 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 17:56:30,629 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 17:56:30,662 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 18:04:14,323 - test_LoginPage_001 - DEBUG - 预期结果结果为：会员中心,实际返回结果为：会员中心
+2020-06-28 18:04:14,357 - test_LoginPage_001 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 18:04:14,390 - test_LoginPage_001 - DEBUG - 预期结果结果为：中国内地+86,实际返回结果为：+86
+2020-06-28 18:04:14,611 - test_LoginPage_002 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 18:04:14,640 - test_LoginPage_002 - DEBUG - 预期结果结果为：繁體中文,实际返回结果为：繁體中文
+2020-06-28 18:06:15,471 - test_LoginPage_002 - DEBUG - 预期结果结果为：简体中文,实际返回结果为：简体中文
+2020-06-28 18:06:15,500 - test_LoginPage_002 - DEBUG - 预期结果结果为：繁體中文,实际返回结果为：繁體中文
+2020-06-28 18:12:36,410 - test_LoginPage_002 - ERROR - 报错！！！！
+2020-06-28 18:13:34,945 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:14:31,172 - test_LoginPage_002 - ERROR - '简体中' != '简体中文'
+- 简体中
++ 简体中文
+?    +
+
+2020-06-28 18:17:51,374 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:20:12,821 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:36:01,200 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:36:34,837 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:36:49,842 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:38:16,370 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:42:23,575 - test_LoginPage_002 - ERROR -  :: 简体中 != 简体中文
+2020-06-28 18:43:20,702 - test_LoginPage_002 - ERROR - '简体中' != '简体中文'
+- 简体中
++ 简体中文
+?    +
+
+2020-06-28 18:48:46,287 - test_LoginPage_002 - ERROR - '简体中' != '简体中文'
+- 简体中
++ 简体中文
+?    +
+
+2020-06-28 18:50:52,154 - test_LoginPage_002 - ERROR - '简体中' != '简体中文'
+- 简体中
++ 简体中文
+?    +
+
