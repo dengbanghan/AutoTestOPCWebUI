@@ -5,83 +5,63 @@
 # @File    : test_002_login.py
 # @Software: PyCharm
 
-# from browsermobproxy import Server
+
 from utils.operationXml import *
 from selenium import webdriver
 from tools.logger import *
 from page.Login import *
 from page.init import *
 import unittest
-# import redis
 import json
 
 class Login(unittest.TestCase,Login,OperationXml,PublicElement):
-    '''登录页面测试用例'''
-    chrome_driver = r"D:\Program Files\Anaconda3\Lib\site-packages\selenium\webdriver\chrome\chromedriver.exe"
-
-    # 后台挂起 Google Chrome 浏览器，运行用例时隐藏 Google Chrome
-    # chrome_options.add_argument('--headless')
-    # chrome_options.add_argument('--disable-gpu')
-
-    # 添加代理服务器
-    # server = Server("F:\AutoTest\AutoTestWebUI\\base\\browsermob-proxy-2.1.4\\bin\\browsermob-proxy.bat")
-    # server.start()
-    # proxy = server.create_proxy()
-    # proxy.new_har("ht_list2", options={'captureContent': True})
-
-    # chrome_options.add_argument('--proxy-server={0}'.format(proxy.proxy))
-    # chrome_options.add_argument('--ignore-certificate-errors')
-
-    url = "https://operation-center-web-sz-develop.eddid.com.cn:1443/"
-
     log = Logger("debug")
 
-    # def getId(self):
-    #     result = self.proxy.har
-    #     for entry in result['log']['entries']:
-    #         _url = entry['request']['url']
-    #         # 根据URL找到数据接口,这里要找的是 http://git.liuyanlin.cn/get_ht_list 这个接口
-    #         if "https://eddid-auth-center-uat.eddid.com.cn:1443/v2/captcha" in _url:
-    #             _response = entry['response']
-    #             _content = _response['content']
-    #             _text = json.loads(_content['text'])
-    #             return _text['data']['id']
-    #     self.server.stop()
-    #
-    # def getCode(self):
-    #     redis_host = 'r-wz9af3qz5xen9mi4j8pd.redis.rds.aliyuncs.com'
-    #     redis_port = '6379'
-    #     redis_passwd = 'admin@321'
-    #     db = 1
-    #     r = redis.Redis(host=redis_host, port=redis_port, password=redis_passwd,db=db,decode_responses=True)
-    #     return r.get("{eac}:captcha:"+self.getId())
-    #
-    # @classmethod
-    # def setUpClass(self):
-    #     '''必须使用@classmethod 装饰器,  所有case运行之前只运行一次'''
-    #     self.driver = webdriver.Chrome(executable_path=self.chrome_driver, chrome_options=self.chrome_options)
-    #     self.driver.maximize_window()
-    #     self.driver.get(self.url)
-    #
-    # @classmethod
-    # def tearDownClass(self):
-    #     '''必须使用@classmethod装饰器, 所有case运行完之后只运行一次'''
-    #     self.driver.quit()
-    #
-    # def test_LoginPage_001(self):
-    #     '''登录页面：检查登录页面的字段'''
-    #     try:
-    #         self.assertEqual("会员中心",self.getTitleText())
-    #         self.assertEqual(self.getXmlData("Login_LangSimp"),self.selectLang().text)
-    #         self.assertEqual(self.getXmlData("Login_AreaNumCN"),self.phoneAreaCode().text)
-    #         self.assertEqual(self.getXmlData("Login_PhoneNumNull"), self.inputBox()[0].get_attribute('placeholder'))
-    #         self.assertEqual(self.getXmlData("Login_PasswdNull"), self.inputBox()[1].get_attribute('placeholder'))
-    #         self.assertEqual(self.getXmlData("Login_CodeNull"), self.inputBox()[2].get_attribute('placeholder'))
-    #         self.assertEqual("登录", self.Button()[1].text)
-    #     except Exception as e:
-    #         self.log.error(e)
-    #         self.assertTrue(False,msg=e)
-    #
+    chrome_note = tools.config.config('setUp.ini', 'chrome')
+    login_info = tools.config.config('loginInfo.ini', 'login')
+    chrome_driver = chrome_note['driver_path']
+
+    host = login_info['host_web']
+    areaNum = login_info['area_num']
+    phoneNum = login_info['phone_num']
+
+    chrome_options = webdriver.ChromeOptions()
+    # 后台挂起 Google Chrome 浏览器，运行用例时隐藏 Google Chrome
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-gpu')
+
+    '''登录页面测试用例'''
+    @classmethod
+    def setUpClass(self):
+        '''必须使用@classmethod 装饰器,  所有case运行之前只运行一次'''
+        self.driver = webdriver.Chrome(executable_path=self.chrome_driver, chrome_options=self.chrome_options)
+        self.driver.maximize_window()
+        self.driver.get(self.host)
+        sleep(3)
+
+    @classmethod
+    def tearDownClass(self):
+        '''必须使用@classmethod装饰器, 所有case运行完之后只运行一次'''
+        self.driver.quit()
+
+    def test_LoginPage_001(self):
+        '''登录页面：检查登录页面的字段'''
+        try:
+            # self.assertEqual("艾德一站通-标准版",self.getTitleText())
+            # self.assertEqual("手机号", self.getPhoneTabText())
+            # self.assertEqual("邮箱", self.getEmailTabText())
+            self.assertEqual("+86", self.getDefaultAreaText())
+            # self.assertEqual("请输入手机号", self.getInputBoxText())
+            # self.assertEqual(self.getXmlData("Login_LangSimp"),self.selectLang().text)
+            # self.assertEqual(self.getXmlData("Login_AreaNumCN"),self.phoneAreaCode().text)
+            # self.assertEqual(self.getXmlData("Login_PhoneNumNull"), self.inputBox()[0].get_attribute('placeholder'))
+            # self.assertEqual(self.getXmlData("Login_PasswdNull"), self.inputBox()[1].get_attribute('placeholder'))
+            # self.assertEqual(self.getXmlData("Login_CodeNull"), self.inputBox()[2].get_attribute('placeholder'))
+            # self.assertEqual("登录", self.Button()[1].text)
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False,msg=e)
+
     # def test_LoginPage_002(self):
     #     '''登录页面：检查语言切换选项'''
     #     self.driver.refresh()
@@ -551,13 +531,13 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
     #     except Exception as e:
     #         self.log.error(e)
     #         self.assertTrue(False,msg=e)
-
-    def test_LoginPage_045(self):
-        '''大陆手机号登录'''
-        self.driver.refresh()
-        self.login("17722527464","666666")
-        try:
-            self.assertEqual("",self.inputBox()[2].get_attribute('value'))
-        except Exception as e:
-            self.log.error(e)
-            self.assertTrue(False,msg=e)
+    #
+    # def test_LoginPage_045(self):
+    #     '''大陆手机号登录'''
+    #     self.driver.refresh()
+    #     self.login("17722527464","666666")
+    #     try:
+    #         self.assertEqual("",self.inputBox()[2].get_attribute('value'))
+    #     except Exception as e:
+    #         self.log.error(e)
+    #         self.assertTrue(False,msg=e)

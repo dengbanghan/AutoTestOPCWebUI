@@ -13,8 +13,11 @@ from time import sleep
 
 class InitWeb(unittest.TestCase,OperationXml,GetToken):
     log = Logger("debug")
-    # chrome_driver = tools.config.config('setUp.ini', 'chrome')
-    chrome_driver = r"D:\Program Files (x86)\Anaconda3\Lib\site-packages\selenium\webdriver\chrome\chromedriver.exe"
+
+    chrome_note = tools.config.config('setUp.ini', 'chrome')
+    login_info = tools.config.config('loginInfo.ini', 'login')
+    chrome_driver = chrome_note['driver_path']
+
     chrome_options = webdriver.ChromeOptions()
     # 禁用W3C
     # chrome_options.add_experimental_option('w3c', False)
@@ -23,9 +26,12 @@ class InitWeb(unittest.TestCase,OperationXml,GetToken):
     # chrome_options.add_argument('--headless')
     # chrome_options.add_argument('--disable-gpu')
 
-    url = "https://operation-center-web-sz-develop.eddid.com.cn:1443/"
+    host = login_info['host_web']
+    areaNum = login_info['area_num']
+    phoneNum = login_info['phone_num']
+
     gt = GetToken()
-    access_token = gt.sign_login('17722527464', '+86', '666666')
+    access_token = gt.sign_login(phoneNum, areaNum, '666666')
 
     # def setUp(self):
     #     '''每个测试case运行之前运行'''
@@ -41,14 +47,14 @@ class InitWeb(unittest.TestCase,OperationXml,GetToken):
         self.driver = webdriver.Chrome(executable_path=self.chrome_driver, chrome_options=self.chrome_options)
         self.driver.maximize_window()
 
-        self.driver.get(self.url)
+        self.driver.get(self.host)
         value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":1648431142300'+"}'"]
         js = 'window.localStorage.setItem("pro__Access-Token", {});'.format(value[0])
         self.driver.execute_script(js)
 
         self.driver.refresh()
 
-    # @classmethod
-    # def tearDownClass(self):
-    #     '''必须使用@classmethod装饰器, 所有case运行完之后只运行一次'''
-    #     self.driver.quit()
+    @classmethod
+    def tearDownClass(self):
+        '''必须使用@classmethod装饰器, 所有case运行完之后只运行一次'''
+        self.driver.quit()

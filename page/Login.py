@@ -14,9 +14,9 @@ class Login(PublicElement,WebDriver):
     # 跳转到登录页面的按钮
     login_title = (By.CLASS_NAME,'logo-title')
     # 手机号tab
-    login_phone =(By.CLASS_NAME,'phone-label active-label')
+    phone_tab =(By.CLASS_NAME,'phone-label')
     # 邮箱tab
-    login_email = (By.CLASS_NAME, 'email-label')
+    email_tab = (By.CLASS_NAME, 'email-label')
     # 区号下拉框
     area_item = (By.CLASS_NAME,'select-item')
     # 输入框
@@ -27,6 +27,34 @@ class Login(PublicElement,WebDriver):
     login_btn = (By.CLASS_NAME,'login-button')
     # 未输入提示文案
     explain_text = (By.CLASS_NAME,'ant-form-explain')
+
+    def getTitleText(self):
+        '''获取标题'''
+        return self.findElement(*self.login_title).text
+
+    def getPhoneTabText(self):
+        '''获取手机号tab标题'''
+        return self.findElement(*self.phone_tab).text
+
+    def getEmailTabText(self):
+        '''获取手机号tab标题'''
+        return self.findElement(*self.email_tab).text
+
+    def getDefaultAreaText(self):
+        '''获取默认的区号'''
+        return self.findElements(*self.area_item)[0].text
+
+    def getCNAreaText(self):
+        '''获取大陆区号'''
+        return self.findElements(*self.area_item)[1].text
+
+    def getHKAreaText(self):
+        '''获取香港区号'''
+        return self.findElements(*self.area_item)[2].text
+
+    def getInputBoxText(self):
+        '''获取输入框文案'''
+        return self.findElements(*self.input_box)[0].get_attribute("placeholder")
 
     def sendPhoneEmailBox(self,phone):
         '''手机号&邮箱输入框'''
