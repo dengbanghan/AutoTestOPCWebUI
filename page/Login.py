@@ -14,31 +14,39 @@ class Login(PublicElement,WebDriver):
     '''登录页面的元素和操作'''
     # 跳转到登录页面的按钮
     login_title = (By.CLASS_NAME, 'logo-title')
+
     # 手机号tab
     phone_tab =(By.CLASS_NAME, 'phone-label')
+
     # 邮箱tab
     email_tab = (By.CLASS_NAME, 'email-label')
+
     # 区号下拉框
     area_item = (By.CLASS_NAME, 'select-item')
 
+    #
     dropdown_content = (By.CLASS_NAME, 'ant-select-dropdown-content')
+
+    # 弹窗提示
+    notice_text = (By.CLASS_NAME,'ant-notification-notice-description')
+
+    # 错误提示
+    error_msg = (By.CLASS_NAME,'ant-notification-notice-description')
 
     # 输入框
     input_box = (By.CLASS_NAME, 'ant-input-lg')
+
     # 输入框标题
     input_box_title = (By.CLASS_NAME, 'ant-form-item-no-colon')
+
     # 获取验证码按钮
     code_btn = (By.CLASS_NAME, 'getCaptcha')
+
     # 登录按钮
     login_btn = (By.CLASS_NAME, 'login-button')
-    # 未输入提示文案
-    explain_text = (By.CLASS_NAME, 'ant-form-explain')
 
-    # def getText(self,type,element,):
-    #     if type == 0:
-    #         return self.findElement(*self.element).text
-    #     elif type == 1:
-    #         return self.findElements(*self.element)[0].text
+    # 未输入提示文案
+    null_text = (By.CLASS_NAME,'ant-form-explain')
 
     def getselectId(self):
         sleep(0.5)
@@ -78,8 +86,12 @@ class Login(PublicElement,WebDriver):
         self.bwe_text = (By.XPATH, '//*[@id="{0}"]/ul/li[2]/div/span[2]'.format(id))
         return self.findElement(*self.hk_text).text + self.findElement(*self.bwe_text).text
 
-    def getPhoneEmailInputText(self):
-        '''获取手机&邮箱输入框文案'''
+    def getPhoneInputText(self):
+        '''获取手机输入框文案'''
+        return self.findElements(*self.input_box)[0].get_attribute("placeholder")
+
+    def getEmailInputText(self):
+        '''获取邮箱输入框文案'''
         return self.findElements(*self.input_box)[0].get_attribute("placeholder")
 
     def getCodeTitleText(self):
@@ -98,6 +110,38 @@ class Login(PublicElement,WebDriver):
         '''获取验证码输入框文案'''
         return self.findElement(*self.login_btn).text
 
+    def getPhoneNullText(self):
+        '''获取手机号输入框为空的提示'''
+        return self.findElements(*self.null_text)[0].get_attribute("textContent")
+
+    def getEmailNullText(self):
+        '''获取邮箱输入框为空的提示'''
+        return self.findElements(*self.null_text)[0].get_attribute("textContent")
+
+    def getCodeNullText(self):
+        '''获取验证码输入框为空的提示'''
+        return self.findElements(*self.null_text)[1].get_attribute("textContent")
+
+    def getNoticeText(self):
+        '''获取右上角弹窗提示信息'''
+        return self.findElement(*self.notice_text).get_attribute("textContent")
+
+    def getErrorText(self):
+        '''获取错误提示信息'''
+        return self.findElement(*self.notice_text).get_attribute("textContent")
+
+    def getPhoenLength(self):
+        '''获取手机号输入框已经输入文字的长度'''
+        phone_input = self.findElements(*self.input_box)[0].get_attribute("value")
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>>",phone_input)
+        return len(phone_input)
+
+    def getCodeLength(self):
+        '''获取验证码输入框已经输入文字的长度'''
+        code_input = self.findElements(*self.input_box)[1].get_attribute("value")
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>>",code_input)
+        return len(code_input)
+
     def clickSelectBtn(self):
         '''点击区号下拉框'''
         self.findElements(*self.area_item)[0].click()
@@ -114,15 +158,17 @@ class Login(PublicElement,WebDriver):
         '''点击邮箱tab标题'''
         return self.findElement(*self.email_tab).click()
 
-    def sendPhoneEmailBox(self,phone):
-        '''手机号&邮箱输入框'''
-        input_box = self.findElements(*self.input_box)
-        input_box[0].send_keys(phone)
+    def sendPhoneBox(self,phone):
+        '''输入手机号'''
+        self.findElements(*self.input_box)[0].send_keys(phone)
+
+    def sendEmailBox(self,phone):
+        '''输入邮箱'''
+        self.findElements(*self.input_box)[0].send_keys(phone)
 
     def sendCodeBox(self,code):
-        '''验证码输入框'''
-        input_box = self.findElements(*self.input_box)
-        input_box[1].send_keys(code)
+        '''输入验证码'''
+        self.findElements(*self.input_box)[1].send_keys(code)
 
     def clickLoginBtn(self):
         '''登录按钮'''
@@ -132,9 +178,22 @@ class Login(PublicElement,WebDriver):
         '''获取验证码按钮'''
         self.findElement(*self.code_btn).click()
 
+    def clickPhoneBox(self):
+        '''点击手机号输入框'''
+        self.findElements(*self.input_box)[0].click()
+
+    def clickEmailBox(self):
+        '''点击邮箱输入框'''
+        self.findElements(*self.input_box)[0].click()
+
+    def clickCodeBox(self):
+        '''点击验证码输入框'''
+        self.findElements(*self.input_box)[1].click()
+
+
     def login(self,phone,code):
         '''登录流程的完整操作步骤'''
-        self.sendPhoneEmailBox(phone)
+        self.sendPhoneBox(phone)
         sleep(1)
         self.sendCodeBox(code)
         sleep(1)

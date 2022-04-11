@@ -51,7 +51,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertEqual("手机号", self.getPhoneTabText())
             self.assertEqual("邮箱", self.getEmailTabText())
             self.assertEqual("+86", self.getDefaultAreaText())
-            self.assertEqual("请输入手机号", self.getPhoneEmailInputText())
+            self.assertEqual("请输入手机号", self.getPhoneInputText())
             self.assertEqual("验证码", self.getCodeTitleText())
             self.assertEqual("请输入验证码", self.getCodeInputText())
             self.assertEqual("获取验证码", self.getCodeBtnText())
@@ -76,7 +76,118 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
         self.driver.refresh()
         self.clickEmailTab()
         try:
-            self.assertEqual("请输入邮箱", self.getPhoneEmailInputText())
+            self.assertEqual("请输入邮箱", self.getEmailInputText())
         except Exception as e:
             self.log.error(e)
             self.assertTrue(False, msg=e)
+
+    def test_loginPage_004(self):
+        '''检查手机号和验证码输入框都为空的提示'''
+        self.driver.refresh()
+        self.clickPhoneBox()
+        self.clickCodeBox()
+        self.clickCodeBtn()
+        try:
+            self.assertEqual("请输入正确的手机号", self.getPhoneNullText())
+            self.assertEqual("请输入验证码", self.getCodeNullText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_005(self):
+        '''检查手机号输入框为空的提示'''
+        self.driver.refresh()
+        self.clickPhoneBox()
+        self.clickCodeBtn()
+        try:
+            self.assertEqual("请输入正确的手机号", self.getPhoneNullText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_006(self):
+        '''检查验证码输入框为空的提示'''
+        self.driver.refresh()
+        self.clickCodeBox()
+        self.clickCodeBtn()
+        try:
+            self.assertEqual("请输入验证码", self.getCodeNullText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_007(self):
+        '''检查邮箱和验证码输入框都为空的提示'''
+        self.driver.refresh()
+        self.clickEmailTab()
+        self.clickEmailBox()
+        self.clickCodeBox()
+        self.clickCodeBtn()
+        try:
+            self.assertEqual("请输入正确的邮箱", self.getEmailNullText())
+            self.assertEqual("请输入验证码", self.getCodeNullText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_008(self):
+        '''检查邮箱输入框为空的提示'''
+        self.driver.refresh()
+        self.clickEmailTab()
+        self.clickEmailBox()
+        self.clickCodeBtn()
+        try:
+            self.assertEqual("请输入正确的邮箱", self.getEmailNullText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_009(self):
+        '''输入错误的手机号的提示'''
+        self.driver.refresh()
+        self.sendPhoneBox('17722')
+        self.clickCodeBtn()
+        try:
+            self.assertEqual("发送失败,请核对登陆账号", self.getNoticeText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_010(self):
+        '''输入错误的手机号和验证码的提示'''
+        self.driver.refresh()
+        self.sendPhoneBox('1772252')
+        self.sendCodeBox("123456")
+        self.clickLoginBtn()
+        try:
+            self.assertEqual("账户密码错误,请核对", self.getErrorText())
+            self.assertEqual("账户密码错误,请核对", self.getNoticeText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_011(self):
+        '''输入错误的验证码的提示'''
+        self.driver.refresh()
+        self.sendPhoneBox('17722527464')
+        self.sendCodeBox("123456")
+        self.clickLoginBtn()
+        try:
+            self.assertEqual("验证码校验失败", self.getErrorText())
+            self.assertEqual("验证码校验失败", self.getNoticeText())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+    def test_loginPage_012(self):
+        '''检验验证码的长度 '''
+        self.driver.refresh()
+        self.sendCodeBox('1234567891011')
+        try:
+            self.assertEqual(6, self.getCodeLength())
+        except Exception as e:
+            self.log.error(e)
+            self.assertTrue(False, msg=e)
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
