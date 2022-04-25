@@ -2,7 +2,7 @@
 # @Time    : 2020/6/8
 # @Author  : Administrator
 # @Email   : dengbanghan@gmail.com
-# @File    : test_002_login.py
+# @File    : test_001_login.py
 # @Software: PyCharm
 
 
@@ -10,7 +10,7 @@ from utils.operationXml import *
 from selenium import webdriver
 from tools.logger import *
 from page.Login import *
-from page.init import *
+from page.Init import *
 import unittest
 import json
 
@@ -82,7 +82,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_004(self):
-        '''检查手机号和验证码输入框都为空的提示'''
+        '''登录页面：检查手机号和验证码输入框都为空的提示'''
         self.driver.refresh()
         self.clickPhoneBox()
         self.clickCodeBox()
@@ -95,7 +95,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_005(self):
-        '''检查手机号输入框为空的提示'''
+        '''登录页面：检查手机号输入框为空的提示'''
         self.driver.refresh()
         self.clickPhoneBox()
         self.clickCodeBtn()
@@ -106,7 +106,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_006(self):
-        '''检查验证码输入框为空的提示'''
+        '''登录页面：检查验证码输入框为空的提示'''
         self.driver.refresh()
         self.clickCodeBox()
         self.clickCodeBtn()
@@ -117,7 +117,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_007(self):
-        '''检查邮箱和验证码输入框都为空的提示'''
+        '''登录页面：检查邮箱和验证码输入框都为空的提示'''
         self.driver.refresh()
         self.clickEmailTab()
         self.clickEmailBox()
@@ -131,7 +131,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_008(self):
-        '''检查邮箱输入框为空的提示'''
+        '''登录页面：检查邮箱输入框为空的提示'''
         self.driver.refresh()
         self.clickEmailTab()
         self.clickEmailBox()
@@ -143,7 +143,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_009(self):
-        '''输入错误的手机号的提示'''
+        '''登录页面：输入错误的手机号的提示'''
         self.driver.refresh()
         self.sendPhoneBox('17722')
         self.clickCodeBtn()
@@ -154,7 +154,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_010(self):
-        '''输入错误的手机号和验证码的提示'''
+        '''登录页面：输入错误的手机号和验证码的提示'''
         self.driver.refresh()
         self.sendPhoneBox('1772252')
         self.sendCodeBox("123456")
@@ -167,7 +167,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_011(self):
-        '''输入错误的验证码的提示'''
+        '''登录页面：输入错误的验证码的提示'''
         self.driver.refresh()
         self.sendPhoneBox('17722527464')
         self.sendCodeBox("123456")
@@ -180,7 +180,7 @@ class Login(unittest.TestCase,Login,OperationXml,PublicElement):
             self.assertTrue(False, msg=e)
 
     def test_loginPage_012(self):
-        '''检验验证码的长度 '''
+        '''登录页面：检验验证码的长度 '''
         self.driver.refresh()
         self.sendCodeBox('1234567891011')
         try:

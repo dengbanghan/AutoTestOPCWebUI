@@ -48,7 +48,7 @@ class InitWeb(unittest.TestCase,OperationXml,GetToken):
         self.driver.maximize_window()
 
         self.driver.get(self.host)
-        value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":1648431142300'+"}'"]
+        value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":1651475604420'+"}'"]
         js = 'window.localStorage.setItem("pro__Access-Token", {});'.format(value[0])
         self.driver.execute_script(js)
 
