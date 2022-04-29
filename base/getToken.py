@@ -62,9 +62,15 @@ class GetToken():
                 self.log.error("发送验证码失败：\n{}".format(msg))
 
 
-    def sign_login(self,PhoneNum,AreaNum,SmsCode):
+    def get_token(self,PhoneNum,AreaNum,SmsCode=None):
         ''''接口登录 OPC 并获取 token '''
         host = self.login_info['host_api'] + self.api_login
+
+        if SmsCode == None:
+            SmsCode = self.login_info['default_code']
+        else:
+            self.send_code(PhoneNum,AreaNum)
+
 
         request_data = {'phone': PhoneNum, 'area': AreaNum, 'sms':SmsCode,'host': self.DomainNname}
         json_request_data = self.u.jsonDumps(request_data)
@@ -83,7 +89,11 @@ class GetToken():
             dict_res = res[1]
             data = self.u.searchDicKV(dict_res, "data")
             token = self.u.searchDicKV(data, "token")
-            return token
+
+            if token == None:
+                return self.login_info['default_token']
+            else:
+                return token
 
         finally:
             if res[0] == 200:
@@ -92,11 +102,6 @@ class GetToken():
             else:
                 msg = self.u.jsonDumps(res)
                 self.log.error("获取 [token] 失败：\n{}".format(msg))
-
-    def get_token(self,PhoneNum,AreaNum):
-        self.send_code(PhoneNum,AreaNum)
-        SmsCode = getCode().getCode(PhoneNum)
-        return self.sign_login(PhoneNum,AreaNum,SmsCode)
 
 if __name__ == '__main__':
     gt = GetToken()

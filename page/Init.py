@@ -9,9 +9,10 @@ import unittest
 from utils.operationXml import *
 from selenium import webdriver
 from base.getToken import *
+from base.getSmsCode import *
 from time import sleep
 
-class InitWeb(unittest.TestCase,OperationXml,GetToken):
+class InitWeb(unittest.TestCase,OperationXml,GetToken,getCode):
     log = Logger("debug")
 
     chrome_note = tools.config.config('setUp.ini', 'chrome')
@@ -29,9 +30,8 @@ class InitWeb(unittest.TestCase,OperationXml,GetToken):
     host = login_info['host_web']
     areaNum = login_info['area_num']
     phoneNum = login_info['phone_num']
-
-    gt = GetToken()
-    access_token = gt.sign_login(phoneNum, areaNum, '666666')
+    smsCode = getCode().getCode(phoneNum)
+    access_token = GetToken().get_token(phoneNum,areaNum)
 
     # def setUp(self):
     #     '''每个测试case运行之前运行'''
