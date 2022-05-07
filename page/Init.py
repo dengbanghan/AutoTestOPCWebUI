@@ -51,7 +51,7 @@ class InitWeb(unittest.TestCase, OperationXml, GetToken, getCode, TimeConvert):
         self.driver.get(self.host)
 
         expire_time_stamp = str(self.tc.get_shanghai_timestamp((str(datetime.datetime.now() + datetime.timedelta(days=7)))[:-7]))
-        value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":'+expire_time_stamp+'0000'+"}'"] # expire 为 token 的有效时间，expire_time为当前时间+7天后的时间戳
+        value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":'+expire_time_stamp+'0000'+"}'"] # expire 为 token 的有效时间，expire_time_stamp 为当前时间+7天后的时间戳
         js = 'window.localStorage.setItem("pro__Access-Token", {});'.format(value[0])
 
         self.driver.execute_script(js)
