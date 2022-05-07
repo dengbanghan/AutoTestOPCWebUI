@@ -10,10 +10,12 @@ from utils.operationXml import *
 from selenium import webdriver
 from base.getToken import *
 from base.getSmsCode import *
-from time import sleep
+from tools.time_convert import *
+import re
 
-class InitWeb(unittest.TestCase,OperationXml,GetToken,getCode):
+class InitWeb(unittest.TestCase, OperationXml, GetToken, getCode, TimeConvert):
     log = Logger("debug")
+    tc = TimeConvert()
 
     chrome_note = tools.config.config('setUp.ini', 'chrome')
     login_info = tools.config.config('loginInfo.ini', 'login')
@@ -46,12 +48,13 @@ class InitWeb(unittest.TestCase,OperationXml,GetToken,getCode):
         '''必须使用@classmethod 装饰器,  所有case运行之前只运行一次'''
         self.driver = webdriver.Chrome(executable_path=self.chrome_driver, chrome_options=self.chrome_options)
         self.driver.maximize_window()
-
         self.driver.get(self.host)
-        value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":1651475604420'+"}'"]
-        js = 'window.localStorage.setItem("pro__Access-Token", {});'.format(value[0])
-        self.driver.execute_script(js)
 
+        expire_time_stamp = str(self.tc.get_shanghai_timestamp((str(datetime.datetime.now() + datetime.timedelta(days=7)))[:-7]))
+        value = ["'{"+'"value":"{}"'.format(self.access_token)+',"expire":'+expire_time_stamp+'0000'+"}'"] # expire 为 token 的有效时间，expire_time为当前时间+7天后的时间戳
+        js = 'window.localStorage.setItem("pro__Access-Token", {});'.format(value[0])
+
+        self.driver.execute_script(js)
         self.driver.refresh()
 
     @classmethod
