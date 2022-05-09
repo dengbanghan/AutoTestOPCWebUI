@@ -28,8 +28,7 @@ class GetToken():
         self.u = Library()
         self.log = Logger("debug")
         self.login_info = tools.config.config('loginInfo.ini', 'login')
-        self.DomainNnameL = self.login_info['host_web'].lstrip('https://')
-        self.DomainNname = self.DomainNnameL.rstrip(':1443/')
+        self.DomainName = self.login_info['host_web'][8:-6]
         self.api_send = 'sign/sms/send'
         self.api_login = 'sign/login'
         pass
@@ -38,7 +37,7 @@ class GetToken():
         '''发送短信验证码'''
         host = self.login_info['host_api'] + self.api_send
 
-        request_data = {'phone':PhoneNum,'area':AreaNum,'host':self.DomainNname}
+        request_data = {'phone':PhoneNum,'area':AreaNum,'host':self.DomainName}
         json_request_data=self.u.jsonDumps(request_data)
 
         HEADER = {
@@ -72,7 +71,7 @@ class GetToken():
             self.send_code(PhoneNum,AreaNum)
 
 
-        request_data = {'phone': PhoneNum, 'area': AreaNum, 'sms':SmsCode,'host': self.DomainNname}
+        request_data = {'phone': PhoneNum, 'area': AreaNum, 'sms':SmsCode,'host': self.DomainName}
         json_request_data = self.u.jsonDumps(request_data)
 
         HEADER = {
