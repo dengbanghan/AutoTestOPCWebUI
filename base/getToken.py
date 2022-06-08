@@ -27,6 +27,7 @@ class GetToken():
     def __init__(self):
         self.u = Library()
         self.log = Logger("debug")
+        self.gc = getCode()
         self.login_info = tools.config.config('loginInfo.ini', 'login')
         self.DomainName = self.login_info['host_web'][8:-6]
         self.api_send = 'sign/sms/send'
@@ -46,6 +47,7 @@ class GetToken():
         }
 
         self.log.info("Request Url：\n{}".format(host))
+        self.log.info("Request Api：\n{}".format(self.api_send))
         self.log.info("Request Body：\n{}".format(json_request_data))
         self.log.info("Request Header：\n{}".format(self.u.jsonDumps(HEADER)))
 
@@ -61,15 +63,16 @@ class GetToken():
                 self.log.error("发送验证码失败：\n{}".format(msg))
 
 
-    def get_token(self,PhoneNum,AreaNum,SmsCode=None):
+    def get_token(self,PhoneNum,AreaNum):
         ''''接口登录 OPC 并获取 token '''
         host = self.login_info['host_api'] + self.api_login
+        env = self.login_info['host_api'][25:-19]
 
-        if SmsCode == None:
+        if env == 'develop':
             SmsCode = self.login_info['default_code']
         else:
             self.send_code(PhoneNum,AreaNum)
-
+            SmsCode = self.gc.getCode(PhoneNum)
 
         request_data = {'phone': PhoneNum, 'area': AreaNum, 'sms':SmsCode,'host': self.DomainName}
         json_request_data = self.u.jsonDumps(request_data)
@@ -80,6 +83,7 @@ class GetToken():
         }
 
         self.log.info("Request Url：\n{}".format(host))
+        self.log.info("Request Api：\n{}".format(self.api_login))
         self.log.info("Request Body：\n{}".format(json_request_data))
         self.log.info("Request Header：\n{}".format(self.u.jsonDumps(HEADER)))
 
@@ -100,7 +104,7 @@ class GetToken():
                 self.log.info("获取 [token] 成功：\n{}".format(token))
             else:
                 msg = self.u.jsonDumps(res)
-                self.log.error("获取 [token] 失败：\n{}".format(msg))
+                self.log.error("获取 [token] 失败：\n{}\n使用配置中的默认token".format(msg))
 
 if __name__ == '__main__':
     gt = GetToken()
